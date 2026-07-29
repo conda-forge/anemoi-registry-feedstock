@@ -1,4 +1,4 @@
-{% set version = "0.3.1" %}
+{% set version = "0.3.2" %}
 {% set python_min = "3.11" %}
 
 package:
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/a/anemoi-registry/anemoi_registry-{{ version }}.tar.gz
-  sha256: 32e78f15fa57554df0494a59a9c4a283add82537fd2b9454f402926b6e8036f6
+  sha256: 03f7172ad44170bbb1ec6445f4ad0e5dedee2d55f53118cf23b879787ce427e8
 
 build:
   entry_points:
