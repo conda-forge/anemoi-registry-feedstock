@@ -14,7 +14,7 @@ build:
     - anemoi-registry = anemoi.registry.__main__:main_PYTHON_ARGCOMPLETE_OK
   noarch: python
   script: "{{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation"
-  number: 0
+  number: 1
 
 requirements:
   host:
@@ -25,7 +25,7 @@ requirements:
   run:
     - python >={{ python_min }}
     - anemoi-datasets >=0.5.28
-    - anemoi-utils >=0.4.39
+    - anemoi-utils >=0.5.12
     - jsonpatch
     - requests
 
